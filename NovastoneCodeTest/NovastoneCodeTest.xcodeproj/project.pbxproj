@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710B42BA24F192EE00FE17CD /* SearchSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42B924F192EE00FE17CD /* SearchSectionController.swift */; };
+		710B42BC24F193A200FE17CD /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42BB24F193A200FE17CD /* SearchCollectionViewCell.swift */; };
+		710B42BE24F19C9900FE17CD /* UniversitySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42BD24F19C9900FE17CD /* UniversitySectionController.swift */; };
+		710B43F924F1BA4E00FE17CD /* UniversityListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B43F724F1BA4E00FE17CD /* UniversityListCollectionViewCell.swift */; };
+		710B43FA24F1BA4E00FE17CD /* UniversityListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710B43F824F1BA4E00FE17CD /* UniversityListCollectionViewCell.xib */; };
+		717D572A24EF68A0008EFE31 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D572924EF68A0008EFE31 /* University.swift */; };
+		717D572C24F03641008EFE31 /* NetworkingController+Universities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D572B24F03641008EFE31 /* NetworkingController+Universities.swift */; };
+		717D573024F048FB008EFE31 /* UniversityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D572F24F048FB008EFE31 /* UniversityListViewModel.swift */; };
+		717D573224F04907008EFE31 /* UniversityDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D573124F04907008EFE31 /* UniversityDetailViewModel.swift */; };
+		717D573B24F08681008EFE31 /* UniversityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D573A24F08681008EFE31 /* UniversityListViewController.swift */; };
+		717D573D24F087C7008EFE31 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D573C24F087C7008EFE31 /* MainViewController.swift */; };
+		719AB76224F1F84A00D60B4B /* SpinnerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76124F1F84A00D60B4B /* SpinnerCollectionViewCell.swift */; };
+		719AB76424F1F8A800D60B4B /* SpinnerSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76324F1F8A800D60B4B /* SpinnerSectionController.swift */; };
+		719AB76624F20B2400D60B4B /* UniversityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76524F20B2400D60B4B /* UniversityDetailViewController.swift */; };
+		719AB76924F2180700D60B4B /* WKWebView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76824F2180700D60B4B /* WKWebView+Extensions.swift */; };
+		719AB76D24F2B10A00D60B4B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76C24F2B10A00D60B4B /* Coordinator.swift */; };
+		719AB76F24F2B1D600D60B4B /* UniversityDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB76E24F2B1D600D60B4B /* UniversityDetailCoordinator.swift */; };
+		719AB81124F2E5F100D60B4B /* UniversityListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB81024F2E5F100D60B4B /* UniversityListViewModelTests.swift */; };
+		719AB81724F30C9800D60B4B /* NovastoneCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB81524F30C8600D60B4B /* NovastoneCodeTestUITests.swift */; };
+		719AB81A24F30D2200D60B4B /* UniversityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB81924F30D2200D60B4B /* UniversityTests.swift */; };
+		719AB81C24F30E8B00D60B4B /* NetworkingUniversitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB81B24F30E8B00D60B4B /* NetworkingUniversitiesTests.swift */; };
+		719AB81F24F30EC900D60B4B /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB81E24F30EC900D60B4B /* NetworkingTests.swift */; };
+		719AB82124F30FA700D60B4B /* Networking+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB82024F30FA700D60B4B /* Networking+Extensions.swift */; };
+		71A5324424EF5D8600A4D3FA /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5324324EF5D8600A4D3FA /* NetworkingController.swift */; };
+		71BA751C24EF28AE009DE8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA751B24EF28AE009DE8C1 /* AppDelegate.swift */; };
+		71BA751E24EF28AE009DE8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA751D24EF28AE009DE8C1 /* SceneDelegate.swift */; };
+		71BA752524EF28B0009DE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BA752424EF28B0009DE8C1 /* Assets.xcassets */; };
+		71BA752824EF28B0009DE8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BA752624EF28B0009DE8C1 /* LaunchScreen.storyboard */; };
+		B588A60C62A9E165C2BF4122 /* Pods_NovastoneCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */; };
+		C999C782C24EA86CA539002A /* Pods_NovastoneCodeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BA752F24EF28B0009DE8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BA751024EF28AE009DE8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BA751724EF28AE009DE8C1;
+			remoteInfo = NovastoneCodeTest;
+		};
+		71BA753A24EF28B0009DE8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BA751024EF28AE009DE8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BA751724EF28AE009DE8C1;
+			remoteInfo = NovastoneCodeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710B42B924F192EE00FE17CD /* SearchSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSectionController.swift; sourceTree = "<group>"; };
+		710B42BB24F193A200FE17CD /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		710B42BD24F19C9900FE17CD /* UniversitySectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitySectionController.swift; sourceTree = "<group>"; };
+		710B43F724F1BA4E00FE17CD /* UniversityListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListCollectionViewCell.swift; sourceTree = "<group>"; };
+		710B43F824F1BA4E00FE17CD /* UniversityListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityListCollectionViewCell.xib; sourceTree = "<group>"; };
+		717D572924EF68A0008EFE31 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		717D572B24F03641008EFE31 /* NetworkingController+Universities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkingController+Universities.swift"; sourceTree = "<group>"; };
+		717D572F24F048FB008EFE31 /* UniversityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewModel.swift; sourceTree = "<group>"; };
+		717D573124F04907008EFE31 /* UniversityDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailViewModel.swift; sourceTree = "<group>"; };
+		717D573A24F08681008EFE31 /* UniversityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewController.swift; sourceTree = "<group>"; };
+		717D573C24F087C7008EFE31 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		719AB76124F1F84A00D60B4B /* SpinnerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerCollectionViewCell.swift; sourceTree = "<group>"; };
+		719AB76324F1F8A800D60B4B /* SpinnerSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerSectionController.swift; sourceTree = "<group>"; };
+		719AB76524F20B2400D60B4B /* UniversityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailViewController.swift; sourceTree = "<group>"; };
+		719AB76824F2180700D60B4B /* WKWebView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extensions.swift"; sourceTree = "<group>"; };
+		719AB76C24F2B10A00D60B4B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		719AB76E24F2B1D600D60B4B /* UniversityDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailCoordinator.swift; sourceTree = "<group>"; };
+		719AB81024F2E5F100D60B4B /* UniversityListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewModelTests.swift; sourceTree = "<group>"; };
+		719AB81524F30C8600D60B4B /* NovastoneCodeTestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovastoneCodeTestUITests.swift; sourceTree = "<group>"; };
+		719AB81924F30D2200D60B4B /* UniversityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTests.swift; sourceTree = "<group>"; };
+		719AB81B24F30E8B00D60B4B /* NetworkingUniversitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingUniversitiesTests.swift; sourceTree = "<group>"; };
+		719AB81E24F30EC900D60B4B /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		719AB82024F30FA700D60B4B /* Networking+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networking+Extensions.swift"; sourceTree = "<group>"; };
+		71A5324324EF5D8600A4D3FA /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
+		71BA751824EF28AE009DE8C1 /* NovastoneCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovastoneCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA751B24EF28AE009DE8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71BA751D24EF28AE009DE8C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71BA752424EF28B0009DE8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BA752724EF28B0009DE8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71BA752924EF28B0009DE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BA752E24EF28B0009DE8C1 /* NovastoneCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovastoneCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA753424EF28B0009DE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BA753924EF28B0009DE8C1 /* NovastoneCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovastoneCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BA753F24EF28B0009DE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BA751524EF28AE009DE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B588A60C62A9E165C2BF4122 /* Pods_NovastoneCodeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA752B24EF28B0009DE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C999C782C24EA86CA539002A /* Pods_NovastoneCodeTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA753624EF28B0009DE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44332C27F99B5B6BB79A88A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */,
+				7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		710B42B824F192D100FE17CD /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				719AB80D24F2D3D700D60B4B /* Universities List */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		717D572D24F04885008EFE31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				717D572F24F048FB008EFE31 /* UniversityListViewModel.swift */,
+				717D573124F04907008EFE31 /* UniversityDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		717D572E24F0488A008EFE31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				717D573424F0491D008EFE31 /* ViewControllers */,
+				717D573324F04918008EFE31 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		717D573324F04918008EFE31 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				710B42BB24F193A200FE17CD /* SearchCollectionViewCell.swift */,
+				719AB76124F1F84A00D60B4B /* SpinnerCollectionViewCell.swift */,
+				717D573924F08663008EFE31 /* UniversityList */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		717D573424F0491D008EFE31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				717D573A24F08681008EFE31 /* UniversityListViewController.swift */,
+				717D573C24F087C7008EFE31 /* MainViewController.swift */,
+				719AB76524F20B2400D60B4B /* UniversityDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		717D573924F08663008EFE31 /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				710B43F724F1BA4E00FE17CD /* UniversityListCollectionViewCell.swift */,
+				710B43F824F1BA4E00FE17CD /* UniversityListCollectionViewCell.xib */,
+			);
+			path = UniversityList;
+			sourceTree = "<group>";
+		};
+		719AB76724F217F300D60B4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				719AB76824F2180700D60B4B /* WKWebView+Extensions.swift */,
+				719AB82024F30FA700D60B4B /* Networking+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		719AB76A24F2B0D200D60B4B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				719AB76C24F2B10A00D60B4B /* Coordinator.swift */,
+				719AB76B24F2B0E300D60B4B /* UniversityDetail */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		719AB76B24F2B0E300D60B4B /* UniversityDetail */ = {
+			isa = PBXGroup;
+			children = (
+				719AB76E24F2B1D600D60B4B /* UniversityDetailCoordinator.swift */,
+			);
+			path = UniversityDetail;
+			sourceTree = "<group>";
+		};
+		719AB80C24F2CFF300D60B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BA751D24EF28AE009DE8C1 /* SceneDelegate.swift */,
+				71BA752624EF28B0009DE8C1 /* LaunchScreen.storyboard */,
+				71BA752924EF28B0009DE8C1 /* Info.plist */,
+				71BA751B24EF28AE009DE8C1 /* AppDelegate.swift */,
+				71BA752424EF28B0009DE8C1 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719AB80D24F2D3D700D60B4B /* Universities List */ = {
+			isa = PBXGroup;
+			children = (
+				710B42B924F192EE00FE17CD /* SearchSectionController.swift */,
+				719AB76324F1F8A800D60B4B /* SpinnerSectionController.swift */,
+				710B42BD24F19C9900FE17CD /* UniversitySectionController.swift */,
+			);
+			path = "Universities List";
+			sourceTree = "<group>";
+		};
+		719AB81224F2E5F800D60B4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				719AB81024F2E5F100D60B4B /* UniversityListViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		719AB81824F30D0600D60B4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				719AB81924F30D2200D60B4B /* UniversityTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		719AB81D24F30E9200D60B4B /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				719AB81B24F30E8B00D60B4B /* NetworkingUniversitiesTests.swift */,
+				719AB81E24F30EC900D60B4B /* NetworkingTests.swift */,
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		71A5324024EF5CAB00A4D3FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				719AB76A24F2B0D200D60B4B /* Coordinators */,
+				71A5324224EF5D7100A4D3FA /* Networking */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71A5324124EF5CB500A4D3FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				717D572924EF68A0008EFE31 /* University.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71A5324224EF5D7100A4D3FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				71A5324324EF5D8600A4D3FA /* NetworkingController.swift */,
+				717D572B24F03641008EFE31 /* NetworkingController+Universities.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		71BA750F24EF28AE009DE8C1 = {
+			isa = PBXGroup;
+			children = (
+				71BA751A24EF28AE009DE8C1 /* NovastoneCodeTest */,
+				71BA753124EF28B0009DE8C1 /* NovastoneCodeTestTests */,
+				71BA753C24EF28B0009DE8C1 /* NovastoneCodeTestUITests */,
+				71BA751924EF28AE009DE8C1 /* Products */,
+				FFCBE59347EFC166D1C674AD /* Pods */,
+				44332C27F99B5B6BB79A88A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71BA751924EF28AE009DE8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BA751824EF28AE009DE8C1 /* NovastoneCodeTest.app */,
+				71BA752E24EF28B0009DE8C1 /* NovastoneCodeTestTests.xctest */,
+				71BA753924EF28B0009DE8C1 /* NovastoneCodeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BA751A24EF28AE009DE8C1 /* NovastoneCodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				71A5324024EF5CAB00A4D3FA /* Controller */,
+				719AB76724F217F300D60B4B /* Extensions */,
+				71A5324124EF5CB500A4D3FA /* Model */,
+				710B42B824F192D100FE17CD /* SectionControllers */,
+				719AB80C24F2CFF300D60B4B /* Supporting Files */,
+				717D572E24F0488A008EFE31 /* View */,
+				717D572D24F04885008EFE31 /* ViewModel */,
+			);
+			path = NovastoneCodeTest;
+			sourceTree = "<group>";
+		};
+		71BA753124EF28B0009DE8C1 /* NovastoneCodeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				719AB81D24F30E9200D60B4B /* ServiceTests */,
+				71BA753424EF28B0009DE8C1 /* Info.plist */,
+				719AB81824F30D0600D60B4B /* Model */,
+				719AB81224F2E5F800D60B4B /* ViewModel */,
+			);
+			path = NovastoneCodeTestTests;
+			sourceTree = "<group>";
+		};
+		71BA753C24EF28B0009DE8C1 /* NovastoneCodeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				719AB81524F30C8600D60B4B /* NovastoneCodeTestUITests.swift */,
+				71BA753F24EF28B0009DE8C1 /* Info.plist */,
+			);
+			path = NovastoneCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		FFCBE59347EFC166D1C674AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */,
+				16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */,
+				2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */,
+				B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BA751724EF28AE009DE8C1 /* NovastoneCodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BA754224EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTest" */;
+			buildPhases = (
+				78521132F87E4EABAEABF949 /* [CP] Check Pods Manifest.lock */,
+				71BA751424EF28AE009DE8C1 /* Sources */,
+				71BA751524EF28AE009DE8C1 /* Frameworks */,
+				71BA751624EF28AE009DE8C1 /* Resources */,
+				D5E029A548762FCD15269B46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovastoneCodeTest;
+			productName = NovastoneCodeTest;
+			productReference = 71BA751824EF28AE009DE8C1 /* NovastoneCodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BA752D24EF28B0009DE8C1 /* NovastoneCodeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BA754524EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTestTests" */;
+			buildPhases = (
+				77930749FC22BA6606DFF7D0 /* [CP] Check Pods Manifest.lock */,
+				71BA752A24EF28B0009DE8C1 /* Sources */,
+				71BA752B24EF28B0009DE8C1 /* Frameworks */,
+				71BA752C24EF28B0009DE8C1 /* Resources */,
+				E1874E0B7C7BF5D18008A449 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BA753024EF28B0009DE8C1 /* PBXTargetDependency */,
+			);
+			name = NovastoneCodeTestTests;
+			productName = NovastoneCodeTestTests;
+			productReference = 71BA752E24EF28B0009DE8C1 /* NovastoneCodeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71BA753824EF28B0009DE8C1 /* NovastoneCodeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BA754824EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTestUITests" */;
+			buildPhases = (
+				71BA753524EF28B0009DE8C1 /* Sources */,
+				71BA753624EF28B0009DE8C1 /* Frameworks */,
+				71BA753724EF28B0009DE8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BA753B24EF28B0009DE8C1 /* PBXTargetDependency */,
+			);
+			name = NovastoneCodeTestUITests;
+			productName = NovastoneCodeTestUITests;
+			productReference = 71BA753924EF28B0009DE8C1 /* NovastoneCodeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BA751024EF28AE009DE8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Anderson Gralha";
+				TargetAttributes = {
+					71BA751724EF28AE009DE8C1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					71BA752D24EF28B0009DE8C1 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 71BA751724EF28AE009DE8C1;
+					};
+					71BA753824EF28B0009DE8C1 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 71BA751724EF28AE009DE8C1;
+					};
+				};
+			};
+			buildConfigurationList = 71BA751324EF28AE009DE8C1 /* Build configuration list for PBXProject "NovastoneCodeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BA750F24EF28AE009DE8C1;
+			productRefGroup = 71BA751924EF28AE009DE8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BA751724EF28AE009DE8C1 /* NovastoneCodeTest */,
+				71BA752D24EF28B0009DE8C1 /* NovastoneCodeTestTests */,
+				71BA753824EF28B0009DE8C1 /* NovastoneCodeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BA751624EF28AE009DE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BA752824EF28B0009DE8C1 /* LaunchScreen.storyboard in Resources */,
+				71BA752524EF28B0009DE8C1 /* Assets.xcassets in Resources */,
+				710B43FA24F1BA4E00FE17CD /* UniversityListCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA752C24EF28B0009DE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA753724EF28B0009DE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77930749FC22BA6606DFF7D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NovastoneCodeTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78521132F87E4EABAEABF949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NovastoneCodeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E029A548762FCD15269B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1874E0B7C7BF5D18008A449 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BA751424EF28AE009DE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717D573024F048FB008EFE31 /* UniversityListViewModel.swift in Sources */,
+				719AB76924F2180700D60B4B /* WKWebView+Extensions.swift in Sources */,
+				710B42BE24F19C9900FE17CD /* UniversitySectionController.swift in Sources */,
+				717D573D24F087C7008EFE31 /* MainViewController.swift in Sources */,
+				719AB76624F20B2400D60B4B /* UniversityDetailViewController.swift in Sources */,
+				717D573B24F08681008EFE31 /* UniversityListViewController.swift in Sources */,
+				710B42BA24F192EE00FE17CD /* SearchSectionController.swift in Sources */,
+				717D572C24F03641008EFE31 /* NetworkingController+Universities.swift in Sources */,
+				719AB76D24F2B10A00D60B4B /* Coordinator.swift in Sources */,
+				710B43F924F1BA4E00FE17CD /* UniversityListCollectionViewCell.swift in Sources */,
+				717D573224F04907008EFE31 /* UniversityDetailViewModel.swift in Sources */,
+				719AB76424F1F8A800D60B4B /* SpinnerSectionController.swift in Sources */,
+				71A5324424EF5D8600A4D3FA /* NetworkingController.swift in Sources */,
+				719AB82124F30FA700D60B4B /* Networking+Extensions.swift in Sources */,
+				710B42BC24F193A200FE17CD /* SearchCollectionViewCell.swift in Sources */,
+				719AB76224F1F84A00D60B4B /* SpinnerCollectionViewCell.swift in Sources */,
+				71BA751C24EF28AE009DE8C1 /* AppDelegate.swift in Sources */,
+				719AB76F24F2B1D600D60B4B /* UniversityDetailCoordinator.swift in Sources */,
+				71BA751E24EF28AE009DE8C1 /* SceneDelegate.swift in Sources */,
+				717D572A24EF68A0008EFE31 /* University.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA752A24EF28B0009DE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719AB81A24F30D2200D60B4B /* UniversityTests.swift in Sources */,
+				719AB81C24F30E8B00D60B4B /* NetworkingUniversitiesTests.swift in Sources */,
+				719AB81124F2E5F100D60B4B /* UniversityListViewModelTests.swift in Sources */,
+				719AB81F24F30EC900D60B4B /* NetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BA753524EF28B0009DE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719AB81724F30C9800D60B4B /* NovastoneCodeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BA753024EF28B0009DE8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BA751724EF28AE009DE8C1 /* NovastoneCodeTest */;
+			targetProxy = 71BA752F24EF28B0009DE8C1 /* PBXContainerItemProxy */;
+		};
+		71BA753B24EF28B0009DE8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BA751724EF28AE009DE8C1 /* NovastoneCodeTest */;
+			targetProxy = 71BA753A24EF28B0009DE8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71BA752624EF28B0009DE8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BA752724EF28B0009DE8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71BA754024EF28B0009DE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BA754124EF28B0009DE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BA754324EF28B0009DE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = "NovastoneCodeTest/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71BA754424EF28B0009DE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = "NovastoneCodeTest/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71BA754624EF28B0009DE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = NovastoneCodeTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovastoneCodeTest.app/NovastoneCodeTest";
+			};
+			name = Debug;
+		};
+		71BA754724EF28B0009DE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = NovastoneCodeTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovastoneCodeTest.app/NovastoneCodeTest";
+			};
+			name = Release;
+		};
+		71BA754924EF28B0009DE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = NovastoneCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovastoneCodeTest;
+			};
+			name = Debug;
+		};
+		71BA754A24EF28B0009DE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4764BD9395;
+				INFOPLIST_FILE = NovastoneCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AndersonGralha.NovastoneCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovastoneCodeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BA751324EF28AE009DE8C1 /* Build configuration list for PBXProject "NovastoneCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA754024EF28B0009DE8C1 /* Debug */,
+				71BA754124EF28B0009DE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BA754224EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA754324EF28B0009DE8C1 /* Debug */,
+				71BA754424EF28B0009DE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BA754524EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA754624EF28B0009DE8C1 /* Debug */,
+				71BA754724EF28B0009DE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BA754824EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BA754924EF28B0009DE8C1 /* Debug */,
+				71BA754A24EF28B0009DE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BA751024EF28AE009DE8C1 /* Project object */;
+}
