@@ -1,8 +1,7 @@
 # UniversityList
 
-Simple University List App
+Simple University Listing App
 
-* [Universities List ](https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json)
-* Using Nimble for testing
-* IGListKit for better lists
-* Unit Tests
+* [Show this universities list](https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json)
+* Using Nimble for Unit Testing
+* IGListKit for better list management
