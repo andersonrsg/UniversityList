@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1263B559AE5E41E2E61E1DC0 /* Pods_NovastoneCodeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC810B82B67097EAFA1634 /* Pods_NovastoneCodeTestTests.framework */; };
 		710B42BA24F192EE00FE17CD /* SearchSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42B924F192EE00FE17CD /* SearchSectionController.swift */; };
 		710B42BC24F193A200FE17CD /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42BB24F193A200FE17CD /* SearchCollectionViewCell.swift */; };
 		710B42BE24F19C9900FE17CD /* UniversitySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710B42BD24F19C9900FE17CD /* UniversitySectionController.swift */; };
@@ -35,8 +36,7 @@
 		71BA751E24EF28AE009DE8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA751D24EF28AE009DE8C1 /* SceneDelegate.swift */; };
 		71BA752524EF28B0009DE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BA752424EF28B0009DE8C1 /* Assets.xcassets */; };
 		71BA752824EF28B0009DE8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BA752624EF28B0009DE8C1 /* LaunchScreen.storyboard */; };
-		B588A60C62A9E165C2BF4122 /* Pods_NovastoneCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */; };
-		C999C782C24EA86CA539002A /* Pods_NovastoneCodeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */; };
+		A577EC5A0813C9B9AC8D8B6A /* Pods_NovastoneCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EA8FD76C9B3AF3CC95A267 /* Pods_NovastoneCodeTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.release.xcconfig"; sourceTree = "<group>"; };
-		2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
-		350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FC810B82B67097EAFA1634 /* Pods_NovastoneCodeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0607CBC5A79642F658ECA65E /* Pods-NovastoneCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F4A8C74BCB127FA34A2CA57 /* Pods-NovastoneCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		23EA8FD76C9B3AF3CC95A267 /* Pods_NovastoneCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710B42B924F192EE00FE17CD /* SearchSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSectionController.swift; sourceTree = "<group>"; };
 		710B42BB24F193A200FE17CD /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		710B42BD24F19C9900FE17CD /* UniversitySectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitySectionController.swift; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		71BA753424EF28B0009DE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BA753924EF28B0009DE8C1 /* NovastoneCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovastoneCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BA753F24EF28B0009DE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovastoneCodeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7460EC47077BCA72C3D52DB6 /* Pods-NovastoneCodeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTestTests/Pods-NovastoneCodeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B92CACD68E8E13F0EA2DE1 /* Pods-NovastoneCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovastoneCodeTest.release.xcconfig"; path = "Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B588A60C62A9E165C2BF4122 /* Pods_NovastoneCodeTest.framework in Frameworks */,
+				A577EC5A0813C9B9AC8D8B6A /* Pods_NovastoneCodeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C999C782C24EA86CA539002A /* Pods_NovastoneCodeTestTests.framework in Frameworks */,
+				1263B559AE5E41E2E61E1DC0 /* Pods_NovastoneCodeTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,11 +126,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44332C27F99B5B6BB79A88A1 /* Frameworks */ = {
+		3DFF3F5D7C0209831EFBC5AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				350AD04C05445CCD96DC9F50 /* Pods_NovastoneCodeTest.framework */,
-				7C63D5851CC7F99D9352D2B9 /* Pods_NovastoneCodeTestTests.framework */,
+				23EA8FD76C9B3AF3CC95A267 /* Pods_NovastoneCodeTest.framework */,
+				00FC810B82B67097EAFA1634 /* Pods_NovastoneCodeTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 				71BA753C24EF28B0009DE8C1 /* NovastoneCodeTestUITests */,
 				71BA751924EF28AE009DE8C1 /* Products */,
 				FFCBE59347EFC166D1C674AD /* Pods */,
-				44332C27F99B5B6BB79A88A1 /* Frameworks */,
+				3DFF3F5D7C0209831EFBC5AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,10 +348,10 @@
 		FFCBE59347EFC166D1C674AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */,
-				16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */,
-				2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */,
-				B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */,
+				1F4A8C74BCB127FA34A2CA57 /* Pods-NovastoneCodeTest.debug.xcconfig */,
+				D0B92CACD68E8E13F0EA2DE1 /* Pods-NovastoneCodeTest.release.xcconfig */,
+				7460EC47077BCA72C3D52DB6 /* Pods-NovastoneCodeTestTests.debug.xcconfig */,
+				0607CBC5A79642F658ECA65E /* Pods-NovastoneCodeTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -363,11 +363,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71BA754224EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTest" */;
 			buildPhases = (
-				78521132F87E4EABAEABF949 /* [CP] Check Pods Manifest.lock */,
+				B3BF292D80276E8C02977BCB /* [CP] Check Pods Manifest.lock */,
 				71BA751424EF28AE009DE8C1 /* Sources */,
 				71BA751524EF28AE009DE8C1 /* Frameworks */,
 				71BA751624EF28AE009DE8C1 /* Resources */,
-				D5E029A548762FCD15269B46 /* [CP] Embed Pods Frameworks */,
+				67356A24973779D370DF24C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,11 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71BA754524EF28B0009DE8C1 /* Build configuration list for PBXNativeTarget "NovastoneCodeTestTests" */;
 			buildPhases = (
-				77930749FC22BA6606DFF7D0 /* [CP] Check Pods Manifest.lock */,
+				8962241DEC85231F3F726405 /* [CP] Check Pods Manifest.lock */,
 				71BA752A24EF28B0009DE8C1 /* Sources */,
 				71BA752B24EF28B0009DE8C1 /* Frameworks */,
 				71BA752C24EF28B0009DE8C1 /* Resources */,
-				E1874E0B7C7BF5D18008A449 /* [CP] Embed Pods Frameworks */,
+				F8D48B2992CE1DBD3D3E484F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -487,7 +487,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		77930749FC22BA6606DFF7D0 /* [CP] Check Pods Manifest.lock */ = {
+		67356A24973779D370DF24C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8962241DEC85231F3F726405 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -509,7 +526,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78521132F87E4EABAEABF949 /* [CP] Check Pods Manifest.lock */ = {
+		B3BF292D80276E8C02977BCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,24 +548,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5E029A548762FCD15269B46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovastoneCodeTest/Pods-NovastoneCodeTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1874E0B7C7BF5D18008A449 /* [CP] Embed Pods Frameworks */ = {
+		F8D48B2992CE1DBD3D3E484F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -757,7 +757,7 @@
 		};
 		71BA754324EF28B0009DE8C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 246BB25A0C756B132BFFD4CB /* Pods-NovastoneCodeTest.debug.xcconfig */;
+			baseConfigurationReference = 1F4A8C74BCB127FA34A2CA57 /* Pods-NovastoneCodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -776,7 +776,7 @@
 		};
 		71BA754424EF28B0009DE8C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B6D96B728DD211EB1BE291 /* Pods-NovastoneCodeTest.release.xcconfig */;
+			baseConfigurationReference = D0B92CACD68E8E13F0EA2DE1 /* Pods-NovastoneCodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -795,7 +795,7 @@
 		};
 		71BA754624EF28B0009DE8C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2384AA150C15F910B985B8E3 /* Pods-NovastoneCodeTestTests.debug.xcconfig */;
+			baseConfigurationReference = 7460EC47077BCA72C3D52DB6 /* Pods-NovastoneCodeTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,7 +818,7 @@
 		};
 		71BA754724EF28B0009DE8C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03576D830CE512765B3416E /* Pods-NovastoneCodeTestTests.release.xcconfig */;
+			baseConfigurationReference = 0607CBC5A79642F658ECA65E /* Pods-NovastoneCodeTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
